@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+ <link rel="stylesheet" href="empresa.css">
+    <script src="script.js" defer></script>
+
+<body>
+
+    <nav>
+       <img class="img" src="Home Imagens/Logo.png" alt="">
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="produtos-Serviços.html">Produtos & Serviços</a></li>
+            <li><a href="novidades.html">Novidades</a></li>
+            <li><a href="contatos.html">Contatos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="principal pagina">
+            <p class="tag">Fale conosco</p>
+            <h1>Contato</h1>
+            <p>Envie sua mensagem para conversar sobre sites, aplicativos, automações e soluções com IA.</p>
+        </section>
+
+        <section class="secao contato-layout">
+            <form id="form-contato" class="formulario" novalidate>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                <small class="erro" id="erro-nome"></small>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com">
+                <small class="erro" id="erro-email"></small>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="6"
+                    placeholder="Conte qual solução você precisa"></textarea>
+                <small class="erro" id="erro-mensagem"></small>
+
+                <button class="botao" type="submit">Enviar</button>
+                <p id="mensagem-sucesso" class="sucesso"></p>
+            </form>
+
+            <aside class="info-contato">
+                <h2>Informações</h2>
+                <p><strong>Email:</strong> contato@vortextech.com</p>
+                <p><strong>Telefone:</strong> (21) 99999-2026</p>
+                <div class="redes">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <footer class="footer">© 2026 Vortex Tech. Todos os direitos reservados. Desenvolvido para conectar inovação e
+        tecnologia.</footer>
+</body>
+
+</html>

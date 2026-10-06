@@ -1,6 +1,6 @@
 # Vortex Tech | Site Institucional
 
-Parte 2 (Individual) do trabalho da disciplina Desenvolvimento Frontend II.
+ Trabalho da disciplina Desenvolvimento Frontend I.
 
 ## Autor
 
